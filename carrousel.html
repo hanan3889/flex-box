@@ -4,41 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="test.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     <title>Carrousel</title>
-    <link rel="stylesheet" href="carrousel.css" />
   </head>
   <body>
-    <h1>Carrousel fait à la maison</h1>
-
-    <div class="caroussel" id="caroussel-example">
-      <div class="caroussel-container">
-        <div class="caroussel-slide active">
-          <img class="caroussel-img" src="img/1.jpg" />
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/girlteam.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
         </div>
-        <div class="caroussel-slide">
-          <img class="caroussel-img" src="img/2.jpg" />
+        <div class="carousel-item">
+          <img
+            src="img/team.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
         </div>
-        <div class="caroussel-slide">
-          <img class="caroussel-img" src="img/3.jpg" />
+        <div class="carousel-item">
+          <img
+            src="img/wolf.jpg"
+            class="d-block w-100"
+            alt="..."
+            style="max-height: 100vh"
+          />
         </div>
-      </div>
-
-      <div class="caroussel-buttons">
-        <button
-          class="caroussel-next"
-          onclick="CarouselNext('caroussel-example')"
-        >
-          &rsaquo;
-        </button>
-        <button
-          class="caroussel-prev"
-          onclick="CarouselPrev('caroussel-example')"
-        >
-          &lsaquo;
-        </button>
       </div>
     </div>
-
-    <script src="carousel.js"></script>
   </body>
 </html>

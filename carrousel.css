@@ -9,12 +9,6 @@
   left: 0;
 }
 
-.caroussel .caroussel-container .caroussel-slide .caroussel-img {
-  width: 50%;
-}
-.carousel-inner > .carousel-item > img {
-  height: 100vh;
-}
 .caroussel-buttons button {
   background-color: transparent;
   border: none;

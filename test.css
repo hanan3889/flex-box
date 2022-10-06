@@ -2,12 +2,27 @@ body {
   margin: 0;
   padding: 0;
 }
-/* sidebar */
+
+/* header */
+.header {
+  display: flex;
+  margin: 40px;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.header h1 {
+  text-shadow: #080b0a;
+}
+/* --------------    sidebar  ------ */
 .sidebar {
-  margin: 0;
+  margin: 15px;
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  display: block;
   /* position: fixed; */
   height: 100%;
   overflow: auto;
@@ -61,4 +76,11 @@ div.content {
     text-align: center;
     float: none;
   }
+}
+
+/* ------------carrousel-------- */
+.carousel {
+  width: 80%;
+  height: 640px;
+  margin: 10%;
 }
